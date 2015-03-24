@@ -73,6 +73,7 @@ public class Codility3 extends JFrame
     this.add(pp2);
     this.add(p);
    }
+   
         public static void bbb(int[] A) {
               int n = A.length;
               int tt = 0;
