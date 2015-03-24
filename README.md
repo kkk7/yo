@@ -14,8 +14,8 @@ import javax.swing.JFrame;
 import javax.swing.JTextField;
 
 
-public class Codility3 extends JFrame
-{
+
+public class Codility3 extends JFrame {
 
      static int x,z;
      static int[]A=new int[]{20,30,22,50,-46,46,20,10,500,33,9,8,31,40,5,33};
