@@ -13,10 +13,7 @@ import javax.swing.JColorChooser;
 import javax.swing.JFrame;
 import javax.swing.JTextField;
 
-/**
- *
- * @author Gaweł
- */  //Mam dwie tablice trzeba znaleźć najmniejszą taką samą liczbę w obu tablicach
+
 public class Codility3 extends JFrame
 {
 
@@ -59,7 +56,7 @@ public class Codility3 extends JFrame
     this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     this.setLayout(new FlowLayout());
 
-    //JColorChooser.showDialog(this, null, Color.yellow);
+
     JButton p = new JButton(" Drukuj ");
     JTextField pp = new JTextField("Wynik: ");
     JTextField pp2 = new JTextField(+solution(B,A)+"   ");
